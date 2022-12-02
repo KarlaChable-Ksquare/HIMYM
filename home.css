@@ -14,14 +14,14 @@
 .visible {
     opacity: 1;
     transform: translate(0, 0);
-    background-color: #9D7549;
 }
 
 .mainContainer{
     background-color: white;
     height: 1700px;
-    /* margin-top: -80; */
+    margin-top: -80;
 }
+
 
 .bannerLogo{
     height: 170px;
@@ -72,7 +72,7 @@
     width: 100%;
     align-items: center;
     text-align: justify;
-    z-index: 100;
+    z-index: 1;
 }
 
 .navContent{
@@ -117,8 +117,10 @@
 
 
 .eventImage{
-    width: 100%;
+    width: 102%;
+    overflow: hidden;
     position: absolute;
+    left: -1%;
 }
 
 .textImg{
